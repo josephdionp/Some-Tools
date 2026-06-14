@@ -1,0 +1,2 @@
+delete duplicate of the file within that folder
+click the .bat file, you must copy both file into the folder to run the script properly

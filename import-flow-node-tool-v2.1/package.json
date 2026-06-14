@@ -1,0 +1,14 @@
+{
+  "name": "import-flow-node-tool",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Dependency-free local import/export graph visualizer for JS/TS projects.",
+  "bin": {
+    "import-flow": "./import-flow.js"
+  },
+  "scripts": {
+    "start": "node import-flow.js . --open"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

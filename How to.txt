@@ -1,0 +1,40 @@
+
+/////////////////////////////Node version
+How to use:
+
+
+cd import-flow-node-tool-v2.1
+node import-flow.js /path/to/your/project --open
+
+Or from inside your project:
+
+node /path/to/import-flow-node-tool/import-flow.js . --open
+
+It generates:
+
+import-flow-report.html
+
+Then opens it in your browser.
+
+
+
+
+
+
+///////////////////container version
+
+
+
+
+Open the folder in VS Code.
+Make sure Docker Desktop is running.
+Install VS Code extension: Dev Containers.
+Press Ctrl/Cmd + Shift + P.
+Choose:
+Dev Containers: Reopen in Container
+After it opens inside the container, run:
+npm run dev
+Open:
+http://localhost:5173
+
+This local version does not need Node installed on your machine; the container handles it.
